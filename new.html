@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Links</title>
+    <link rel="stylesheet" href="">
+    <style>
+        body {
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* Light text color */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    gap: 20px; /* Space between logos */
+}
+
+.profile img {
+    border-radius: 50%; /* Circular logos */
+    transition: transform 0.2s; /* Smooth scaling on hover */
+}
+
+.profile:hover img {
+    transform: scale(1.1); /* Scale up logo on hover */
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="https://www.profile1.com" class="profile">
+            <img src="https://via.placeholder.com/100" alt="Profile 1 Logo" />
+        </a>
+        <a href="https://www.profile2.com" class="profile">
+            <img src="https://via.placeholder.com/100" alt="Profile 2 Logo" />
+        </a>
+    </div>
+</body>
+</html>
